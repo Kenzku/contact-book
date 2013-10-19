@@ -1,0 +1,35 @@
+//
+//   User: Ken
+//   Date: 02/10/2013
+//   Time: 14:52
+
+.content-body-add-new-contact.close-button-effect-area.index-mobile-content-control
+    form.pure-form.pure-form-aligned#add-new-contact-form
+        .pure-u-1.add-contact-group
+            .close-button
+            button.pure-button.pure-button-primary.add-new-contact-button#submitNewContact(type="submit") Done
+            .pure-u-1-3
+                //input.upload-contact-image(type="file" )
+            .pure-u-1-3
+                .add-new-contact-detail-basic
+                    input.add-new-detail#newLastName(type="text" placeholder="Last Name" maxlength="30" required)
+                    input.add-new-detail#newFirstName(type="text" placeholder="First Name" maxlength="30" required)
+                    input.add-new-detail#newCompany(type="text" placeholder="Company" maxlength="100")
+        .pure-u-1.add-contact-group#contact-detail-phone-group
+            .add-contact-detail-phone-item
+                .pure-u-1-3
+                    h6.contact-detail-field-name.contact-detail-phone-field-name phone
+                .pure-u-1-3
+                    input.add-new-detail#newPhone(type="tel" placeholder="Phone" maxlength="30")
+        .pure-u-1.add-contact-group#contact-detail-email-group
+            .add-contact-detail-email-item
+                .pure-u-1-3
+                    h6.contact-detail-field-name.contact-detail-email-field-name email
+                .pure-u-1-3
+                    input.add-new-detail#newEmail(type="email" placeholder="Email")
+        .pure-u-1.add-contact-group
+            .add-contact-detail-note-item
+                .pure-u-1-3
+                    h6.contact-detail-field-name note
+                .pure-u-1-3
+                    textarea.add-new-detail#newNote(type="text" placeholder="Note (Max 500)" maxlength="500")

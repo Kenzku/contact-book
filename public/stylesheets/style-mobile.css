@@ -1,0 +1,178 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.contact-controls {
+    text-align: right;
+}
+
+.logo {
+    width: 30%;
+}
+
+.contact-item-wrap, .contact-detail-group {
+    padding-top: 0.9em;
+}
+
+.contact-item-wrap {
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-content-head, .contact-content-body {
+    padding: 1em 2em 0 2em;
+}
+
+.contact-profile-photo {
+    border-radius: 3px;
+    margin-right: 0.5em;
+}
+
+.contact-name {
+    text-transform: uppercase;
+}
+.contact-note {
+    font-size: 80%;
+    margin: 0.4em 0;
+}
+.contact-company, .contact-note {
+    color: #999;
+}
+
+.contact-detail-field-name {
+    text-align: right;
+    padding-right: 2em;
+}
+
+.contact-detail-field-name, .contact-detail, .contact-name, .contact-company{
+    margin: 0;
+}
+
+.contact-detail-note, .add-new-detail, .edit-detail {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    line-height: 1.5em;
+}
+
+.add-new-detail, .edit-detail, .contact-detail, .contact-detail-field-name {
+    margin-top: 0.5em;
+}
+
+.contact-detail-company, .add-new-detail, .edit-detail {
+    padding-top: 1.5em;
+}
+
+.add-new-detail, .edit-detail {
+    width : 100%;
+}
+
+.content-body-detail, .content-body-add-new-contact, .content-body-edit-contact {
+    padding: 1em;
+    border-radius: 1em;
+    background: #eee;
+    display: none;
+}
+
+.close-button, .remove-contact-button, .add-new-contact-button, .edit-contact-button {
+    float: right;
+    height: 26px;
+}
+
+.close-button, .remove-contact-button, .add-another-phone  {
+    background-repeat: no-repeat;
+    width: 26px;
+}
+
+.close-button, .remove-contact-button {
+    background-image: url('../images/close.png');
+}
+
+.remove-contact-button-area {
+    float: right;
+}
+.add-new-contact-button, .edit-contact-button {
+    padding-top: 5px;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+.searchResultItem {
+    font-size: 90%;
+}
+.upload-contact-image {
+    width: 100%;
+}
+
+.add-new-contact-detail-basic input.add-new-detail:first-child,
+.edit-contact-detail-basic input.edit-detail:first-child{
+     margin-top: 0;
+}
+
+.add-new-contact-detail-basic input.add-new-detail:nth-child(2),
+.edit-contact-detail-basic input.edit-detail:nth-child(2){
+    display: block;
+}
+
+.content-body-detail .contact-detail-last-name {
+    padding-right: 1em;
+}
+
+.content-body-add-new-contact form input:focus:invalid,
+.content-body-edit-contact form input:focus:invalid {
+    box-shadow: 0px 0px 2px 2px  #ff0013 inset;
+}
+
+.content-body-add-new-contact form input:focus:valid,
+.content-body-edit-contact form input:focus:valid {
+    box-shadow: 0px 0px 2px 2px #00ff1f inset;
+}
+
+.add-another-phone {
+    background-image: url('../images/plus.png');
+    height: 26px;
+    float:right;
+}
+
+.notification-item {
+    display: none;
+    position: fixed;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.notification-image {
+    padding: 1em 1.5em 1em 1em;
+    background-repeat: no-repeat;
+}
+
+.notification-text-success {
+    color: green;
+}
+
+.notification-text-fail {
+    color: red;
+}
+
+.nick-name-icon {
+    margin-top: 0;
+    margin-bottom: .5em;
+    width: 60px;
+    font-size: 200%;
+    text-shadow: 0px 1px 6px #4d4d4d;
+    color: #222;
+}
+
+.contact-detail-name {
+    font-size: 120%;
+}
+
+.contact-detail-company {
+    color: #a9a9a9;
+    font-weight:normal;
+}
